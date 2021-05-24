@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .container{
+                width: 40%;
+                border:1.5px solid black;
+                margin: auto;
+                padding: 10px;
+            }
+            h1{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+        <h1>My Form</h1>
+        <form action="Servlet" method="Post">
+            <table>
+                <tr>
+                    <td>Enter your name:</td>
+                    <td><input type="text" name="user_name" placeholder="Enter here"/></td>
+                </tr>
+                <tr>
+                    <td>Enter your Enroll no.:</td>
+                    <td><input type="text" name="user_enroll" placeholder="Enter here"/></td>
+                </tr>
+                <tr>
+                    <td>Select Gender:</td>
+                    <td><input type="radio" name="user_gender" value="male">Male &nbsp; &nbsp; <input type="radio" name="user_gender" value="female">Female</td>
+                </tr>
+                <tr>
+                    <td>Select year:</td>
+                    <td>
+                        <select name="user_year">
+                            <option value="First">First</option>
+                            <option value="Second">Second</option>
+                            <option value="Third">Third</option>
+                            <option value="Fourth">Fourth</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Enter your section:</td>
+                    <td><input type="text" name="user_section" placeholder="Enter here"/></td>
+                </tr>
+                <tr>
+                    <td>
+                        
+                    </td>
+                    <td>
+                        <button type="submit">SUBMIT</button>
+                        <button type="reset">RESET</button>
+                    </td>
+                </tr>
+                
+            </table>
+         </form>
+        </div>
+    </body>
+</html>
+
